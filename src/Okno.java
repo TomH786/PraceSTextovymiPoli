@@ -14,7 +14,7 @@ public class Okno extends JFrame {
 
     public void initCompotent(){
         setContentPane(pnMain);
-        setTitle("Test s práce tlačítky");
+        setTitle("Test práce tlačítky");
         setSize(600, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         btnGeneruj.addActionListener(e -> btnGeneruj());
